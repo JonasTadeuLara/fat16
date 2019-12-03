@@ -85,10 +85,10 @@ int main(){
         
         switch (comando) {
         case 'i': // INIT
-            /* code */
+            if(ler_string==false && ler_diretorio==false) init();
             break;
         case 'o': // LOAD
-            /* code */
+            if(ler_string==false && ler_diretorio==false) load();
             break;
         case 's': // LS
             /* code */
